@@ -15,4 +15,5 @@ The models.We are using prophet model to analyxze the death rate or recovering a
 ![Worls Covid Map](https://user-images.githubusercontent.com/43465317/80907563-e734c600-8d35-11ea-92ea-079a673b8b93.png)
 
 2) SYMPTOMS ON COVID19
+ ![Symptoms chart](https://user-images.githubusercontent.com/43465317/80907686-95407000-8d36-11ea-85c1-4c4dda8ecf7b.png)
 
