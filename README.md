@@ -18,5 +18,8 @@ The models.We are using prophet model to analyxze the death rate or recovering a
  ![Symptoms chart](https://user-images.githubusercontent.com/43465317/80907686-95407000-8d36-11ea-85c1-4c4dda8ecf7b.png)
 3) X-RAY IMAGE ON COVID DETECTION
  ![X-ray Result](https://user-images.githubusercontent.com/43465317/80907729-0849e680-8d37-11ea-8e18-4899677dfd0a.png)
+ 4)PRESENT STATE OF COVID PAITENTS OVER WORLD
+  ![Present State Chart](https://user-images.githubusercontent.com/43465317/80907809-873f1f00-8d37-11ea-89ae-ff066ca21ce5.png)
+
 4) PRESENT STATE OF THE PAITENT
  
