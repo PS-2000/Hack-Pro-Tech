@@ -11,3 +11,27 @@ among people living in other countries, and is approaching approximately 305,275
 The models.We are using prophet model to analyxze the death rate or recovering after 15 days later.
 
 ## predicted model
+cases = pd.read_csv("../input/novel-corona-virus-2019-dataset/covid_19_data.csv")
+import plotly.offline as py
+import plotly.express as px
+
+
+py.init_notebook_mode(connected=True)
+
+grp = cases.groupby(['ObservationDate', 'Country/Region'])['Confirmed', 'Deaths', 'Recovered'].max()
+grp = grp.reset_index()
+grp['Date'] = pd.to_datetime(grp['ObservationDate'])
+grp['Date'] = grp['Date'].dt.strftime('%m/%d/%Y')
+grp['Active'] = grp['Confirmed'] - grp['Recovered'] - grp['Deaths']
+grp['Country'] =  grp['Country/Region']
+
+fig = px.choropleth(grp, locations="Country", locationmode='country names', 
+                     color="Confirmed", hover_name="Country/Region",hover_data = [grp.Recovered,grp.Deaths,grp.Active],projection="mercator",
+                     animation_frame="Date",width=800, height=500,
+                     color_continuous_scale='Reds',
+                     range_color=[1000,50000],
+
+                     title='World Map of Coronavirus')
+
+fig.update(layout_coloraxis_showscale=True)
+py.offline.iplot(fig)
