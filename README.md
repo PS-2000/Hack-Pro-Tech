@@ -11,5 +11,7 @@ among people living in other countries, and is approaching approximately 305,275
 The models.We are using prophet model to analyxze the death rate or recovering after 15 days later.
 
 ## predicted model outcome
-
+1)  WORLD MAP FOR CORONA VIRUS 
 ![Worls Covid Map](https://user-images.githubusercontent.com/43465317/80907563-e734c600-8d35-11ea-92ea-079a673b8b93.png)
+
+2)
