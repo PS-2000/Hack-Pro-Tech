@@ -24,4 +24,4 @@ The models.We are using prophet model to analyxze the death rate or recovering a
  5)NEXT 15 DAYS PREDICTION
   ![Screenshot (65)](https://user-images.githubusercontent.com/43465317/80907858-ed2ba680-8d37-11ea-8019-d741579f6428.png)
 
- 
+ COVID DETECTOR .ipynb
