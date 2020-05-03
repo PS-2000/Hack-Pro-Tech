@@ -12,3 +12,4 @@ The models.We are using prophet model to analyxze the death rate or recovering a
 
 ## predicted model outcome
 
+Worls Covid Map.png
