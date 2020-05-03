@@ -24,4 +24,5 @@ The models.We are using prophet model to analyxze the death rate or recovering a
  5)NEXT 15 DAYS PREDICTION
   ![Screenshot (65)](https://user-images.githubusercontent.com/43465317/80907858-ed2ba680-8d37-11ea-8019-d741579f6428.png)
 
- COVID DETECTOR .ipynb
+# The following deep learning model I have used to generate the above outcomes
+ https://github.com/priyo1705869/Hack-Pro-Tech/blob/master/COVID%20DETECTOR%20.ipynb
